@@ -16,7 +16,7 @@ function App() {
   const [searchHistory, setSearchHistory] = useState([]); // Search history
   const [error, setError] = useState(''); // Error message
 
-  const API_URL = import.meta.env.VITE_BACKEND_URL; // API base URL
+  const API_URL = 'https://weather-app-backend-wby9.onrender.com'; // API base URL
 
   // Handle authentication (login/signup)
   const handleAuth = async (e) => {
